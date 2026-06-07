@@ -14,6 +14,9 @@ Personal collection of Windows cursor theme sets (`.cur` / `.ani` files). Each t
 | `Bibata-Modern-Classic/` | Bibata Modern Classic | ful1e5 / GitHub | `install.inf` |
 | `Bibata-Modern-Ice/` | Bibata Modern Ice | ful1e5 / GitHub | `install.inf` |
 | `Windows-Cursor-Concept-v2.2/` | W11 Cursor Concept v2.2 | Jepri Creations / AMag1c | Per variant folder |
+| `Bibata-Modern-Ice/` | Bibata Modern Ice | ful1e5 / GitHub | `install.inf` |
+| `Windows-Cursor-Concept-v2.2/` | W11 Cursor Concept v2.2 | Jepri Creations / AMag1c | Per variant folder |
+| `Yaru-Ubuntu/` | Yaru (Ubuntu) | csabika98 / GitHub | `install.inf` |
 | `ctrlcat0xx-cursors/` | 31 themed packs | ctrlcat0xx / GitHub | `install.inf` per pack |
 
 Source archives (`.zip`) go in `repos/`. Don't edit zip files; extract into theme folders.

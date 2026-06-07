@@ -12,7 +12,8 @@ My personal collection of Windows custom cursor themes (`.cur` / `.ani`).
 | 4 | **Bibata Modern Classic** | ful1e5 / GitHub | Classic (black) | `install.inf` |
 | 5 | **Bibata Modern Ice** | ful1e5 / GitHub | Ice (white) | `install.inf` |
 | 6 | **Windows Cursor Concept v2.2** | Jepri Creations / AMag1c | Dark, Light, Big Dark, Big Light | See variant folders |
-| 7 | **ctrlcat0xx Cursors** | ctrlcat0xx / GitHub | 31 themed packs (anime, games, etc.) | `install.inf` per pack |
+| 7 | **Yaru Ubuntu** | csabika98 / GitHub | Ubuntu Yaru cursor theme for Windows | `install.inf` |
+| 8 | **ctrlcat0xx Cursors** | ctrlcat0xx / GitHub | 31 themed packs (anime, games, etc.) | `install.inf` per pack |
 
 ## Installation
 
@@ -32,6 +33,7 @@ personal-cursor-set/
 ├── Bibata-Modern-Classic/        # Bibata Classic (black)
 ├── Bibata-Modern-Ice/            # Bibata Ice (white)
 ├── Windows-Cursor-Concept-v2.2/  # Cursor Concept v2.2 (4 variants)
+├── Yaru-Ubuntu/                  # Ubuntu Yaru cursor theme
 ├── ctrlcat0xx-cursors/           # 31 themed cursor packs
 ├── repos/                        # Original downloads cache
 ├── AGENTS.md                     # OpenCode agent instructions
