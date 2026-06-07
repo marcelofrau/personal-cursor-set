@@ -1,22 +1,22 @@
 # personal-cursor-set
 
-Minha coleção pessoal de cursores personalizados para Windows (`.cur` / `.ani`).
+My personal collection of Windows custom cursor themes (`.cur` / `.ani`).
 
-## Temas
+## Themes
 
-| Tema | Descrição | Instalador |
-|------|-----------|------------|
+| Theme | Description | Installer |
+|-------|-------------|-----------|
 | Mario Gant | Mario-themed cursors by behelit/DeviantArt | `mario-gant/install.inf` |
 | Posy's Cursor | Cursor set by Michiel de Boer / Posy | `Posy's Cursor/_install Posy Default.inf` |
 
-## Instalação
+## Installation
 
-1. Abra a pasta do tema desejado
-2. Clique com botão direito no arquivo `.inf` → **Instalar**
-3. Vá em **Configurações do Mouse > Ponteiros** e selecione o esquema
+1. Open the desired theme folder
+2. Right-click the `.inf` file → **Install**
+3. Go to **Mouse Properties > Pointers** and select the scheme
 
-Ou instale manualmente apontando cada cursor nas propriedades do mouse.
+Alternatively, manually assign each cursor file in Mouse Properties.
 
-## Licenças
+## Licenses
 
-Cada tema mantém a licença de seu autor original. Consulte os arquivos de atribuição em cada pasta.
+Each theme retains its original author's license. See attribution files inside each folder.
