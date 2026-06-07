@@ -1,0 +1,5 @@
+# Ignore extracted source directories in repos/
+repos/*/
+# But keep zip/deb archives
+!repos/*.zip
+!repos/*.deb

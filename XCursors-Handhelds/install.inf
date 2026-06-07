@@ -1,0 +1,45 @@
+; Right click on this file in Windows Explorer and select "Install".
+; Then, run `main.cpl` and select the cursor theme "Handhelds".
+
+[Version]
+Signature = "$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%arrow%,,%10%\%CUR_DIR%\%working%,%10%\%CUR_DIR%\%wait%,%10%\%CUR_DIR%\%crosshair%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%pen%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%size_ns%,%10%\%CUR_DIR%\%size_ew%,,,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%up_arrow%,%10%\%CUR_DIR%\%link%,,"
+
+[Scheme.Cur]
+arrow.cur
+working.cur
+wait.cur
+crosshair.cur
+text.cur
+pen.cur
+unavailable.cur
+size_ns.cur
+size_ew.cur
+move.cur
+up_arrow.cur
+link.cur
+
+[Strings]
+CUR_DIR = "Cursors\Handhelds"
+SCHEME_NAME = "Handhelds"
+arrow = "arrow.cur"
+working = "working.cur"
+wait = "wait.cur"
+crosshair = "crosshair.cur"
+text = "text.cur"
+pen = "pen.cur"
+unavailable = "unavailable.cur"
+size_ns = "size_ns.cur"
+size_ew = "size_ew.cur"
+move = "move.cur"
+up_arrow = "up_arrow.cur"
+link = "link.cur"
