@@ -6,9 +6,26 @@ Personal collection of Windows cursor theme sets (`.cur` / `.ani` files). Each t
 
 ## Current contents
 
-- **mario-gant/** — Mario-themed cursor set by behelit/DeviantArt. Includes `install.inf`. See `readme.txt`.
-- **Posy's Cursor/** — Posy's cursor set by Michiel de Boer. Includes `_install Posy Default.inf`. See `_info and instructions.txt`.
-- **mario-gant.zip**, **All Posy's Cursors 1.4.zip** — source archives (don't edit; extract from the folder).
+| Folder | Theme | Source | Installer |
+|--------|-------|--------|-----------|
+| `mario-gant/` | Mario Gant | behelit / DeviantArt | `install.inf` |
+| `Posy's Cursor/` | Posy's Cursor | Michiel de Boer | `_install Posy Default.inf` |
+| `Bibata-Modern-Amber/` | Bibata Modern Amber | ful1e5 / GitHub | `install.inf` |
+| `Bibata-Modern-Classic/` | Bibata Modern Classic | ful1e5 / GitHub | `install.inf` |
+| `Bibata-Modern-Ice/` | Bibata Modern Ice | ful1e5 / GitHub | `install.inf` |
+| `Windows-Cursor-Concept-v2.2/` | W11 Cursor Concept v2.2 | Jepri Creations / AMag1c | Per variant folder |
+| `ctrlcat0xx-cursors/` | 31 themed packs | ctrlcat0xx / GitHub | `install.inf` per pack |
+
+Source archives (`.zip`) go in `repos/`. Don't edit zip files; extract into theme folders.
+
+## New theme checklist
+
+1. Download source (zip or clone repo) into `repos/`
+2. Extract cursor files into a new folder at root — name it descriptively
+3. Verify or create `install.inf` (see existing ones as templates)
+4. Preserve any readme/attribution/license files
+5. Update this file and `README.md`
+6. `git add -A && git commit -m "Add <ThemeName>" && git push`
 
 ## Installing cursors
 
