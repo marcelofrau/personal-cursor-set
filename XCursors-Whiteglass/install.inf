@@ -6,13 +6,29 @@ Signature = "$CHICAGO$"
 
 [DefaultInstall]
 CopyFiles = Scheme.Cur
-AddReg    = Scheme.Reg
+AddReg    = Scheme.Reg,Wreg
 
 [DestinationDirs]
 Scheme.Cur = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%arrow%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%working%,%10%\%CUR_DIR%\%wait%,%10%\%CUR_DIR%\%crosshair%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%pen%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%size_ns%,%10%\%CUR_DIR%\%size_ew%,,,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%up_arrow%,%10%\%CUR_DIR%\%link%,,"
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%arrow%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%working%,%10%\%CUR_DIR%\%wait%,%10%\%CUR_DIR%\%crosshair%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%pen%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%size_ns%,%10%\%CUR_DIR%\%size_ew%,,,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%up_arrow%,%10%\%CUR_DIR%\%link%,,"
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"Whiteglass"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\arrow.cur"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\help.cur"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\working.cur"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\wait.cur"
+HKCU,"Control Panel\Cursors",crosshair,0x00020000,"%10%\%CUR_DIR%\crosshair.cur"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\text.cur"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\pen.cur"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\unavailable.cur"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\size_ns.cur"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\size_ew.cur"
+HKCU,"Control Panel\Cursors",Move,0x00020000,"%10%\%CUR_DIR%\move.cur"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\up_arrow.cur"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\link.cur"
 
 [Scheme.Cur]
 arrow.cur

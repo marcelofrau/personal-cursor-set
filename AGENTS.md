@@ -68,3 +68,4 @@ All current themes were installed on this machine on 2026-06-07 (42 schemes regi
 - Keep each theme self-contained in its own folder with its own `.inf`.
 - Preserve original author credit files (readme, attributions) when adding themes.
 - Linux XCursor themes from `.deb` packages: extract with 7z; remove 0-byte symlink stubs from `cursors/` before running `x2wincurtheme`.
+- Generated `.inf` from `x2wincurtheme` uses `HKLM` and lacks `[Wreg]` section — must fix to `HKCU` + add `[Wreg]` with per-cursor registry entries (see Yaru `.inf` as template).
